@@ -97,6 +97,8 @@ h1 {
 }
 
 .frame2 p {
+  position: relative;
+
   min-width: 30rem;
   min-height: 8rem;
 
@@ -171,13 +173,11 @@ button:hover {
 
 @keyframes message {  
   from {
-    position: relative;
     top: 20rem; 
     transform:scale(0);
     opacity: 0.2;
   }
   to {
-    position: relative;
     inset: 0;
     transform: scale(1);
     opacity: 1;
